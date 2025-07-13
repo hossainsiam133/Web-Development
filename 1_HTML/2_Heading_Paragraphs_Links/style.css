@@ -1,0 +1,16 @@
+.body{
+    background-color: hotpink;
+}
+.h1{
+    background-color: aqua;
+    font-size: 50px;
+}
+.li{
+    background-color: rgb(219, 191, 191);
+    font-size: 30px;
+}
+.h2{
+    background-color: brown;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
