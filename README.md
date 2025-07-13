@@ -24,12 +24,12 @@ It includes everything from simple static websites to dynamic full-stack web app
 
 ## 📁 Project Structure
 
-web-development-repo/
-├── html-css/           # Basic and advanced HTML & CSS projects
-├── javascript/         # JavaScript functionalities & mini-projects
-├── python-scripts/     # Backend-related scripts or utilities
-├── django-projects/    # Full Django applications
-└── README.md
+web-development-repo/ <br>
+├── html-css/           # Basic and advanced HTML & CSS projects <br>
+├── javascript/         # JavaScript functionalities & mini-projects <br>
+├── python-scripts/     # Backend-related scripts or utilities <br>
+├── django-projects/    # Full Django applications <br>
+└── README.md <br>
 
 🚀 How to Run
 Django Projects
