@@ -31,33 +31,34 @@ web-development-repo/ <br>
 ├── django-projects/    # Full Django applications <br>
 └── README.md <br>
 
-🚀 How to Run
-Django Projects
-Navigate into a Django project folder:
-cd django-projects/project_name
+---
 
-Create and activate a virtual environment:
-python -m venv env
-source env/bin/activate
+🚀 How to Run <br>
+Django Projects <br>
+1. Navigate into a Django project folder: <br>
+   cd django-projects/project_name
 
-Install dependencies:
-pip install -r requirements.txt
+2. Create and activate a virtual environment:
+   python -m venv env
+   source env/bin/activate
 
-Run the development server:
-python manage.py runserver
+3. Install dependencies:
+   pip install -r requirements.txt
 
+4. Run the development server:
+   python manage.py runserver
+
+---
 💡 Contributing
 Want to improve or add new features? Feel free to fork the repository, create a new branch, and submit a pull request.
-
+---
 📜 License
 This repository is open-source and available under the MIT License.
-
+---
 🙌 Acknowledgments
 Thanks to open-source communities and contributors for inspiration, tools, and resources.
-
+---
 📞 Contact
 For questions, suggestions, or collaboration:
-
 Email: cpsiam221@gmail.gmail.com
-
 LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/siam-hossain-33305a25b/)
