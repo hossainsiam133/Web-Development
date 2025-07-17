@@ -1,0 +1,34 @@
+th,
+td,
+caption {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 10px;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+img {
+    margin: 10px;
+}
+
+ol,
+ul {
+    font-size: 30px;
+}
+
+#front {
+    background-color: aquamarine;
+}
+#back{
+    background-color: darkslategray;
+}
