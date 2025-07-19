@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4_Forms_input_tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Survey Form</h1>
+
+    <form id="form" action="/submit" method="post">
+        <label for="">Name</label><br>
+        <input class="input" type="text"><br><br>
+        <label  for="">E-Mail</label><br>
+        <input class="input" type="email" name="" id=""><br><br>
+        <label for="">Password</label><br>
+        <input class="input" type="password"><br><br>
+        <label for="">DOB</label><br>
+        <input class="input" type="date"> <br><br>
+        <label for="">Age</label><br>
+        <input class="input" type="number"><br><br>
+        <label for="">Which Option best dexcribe you ?</label> <br>
+        <select name="" class="select">
+            <option value="">Student</option>
+            <option value="">Business</option>
+            <option value="">Teacher</option>
+            <option value="">Gov. Employee</option>
+        </select> <br><br>
+        <label for="">Gender</label><br>
+        <input type="radio" name="Gender">Male <br>
+        <input type="radio" name="Gender">Female <br>
+        <input type="radio" name="Gender">Others <br> <br>
+
+        <label for="">Language & Framework known</label> <br>
+        <input type="checkbox">C <br>
+        <input type="checkbox">C++ <br>
+        <input type="checkbox">Java <br>
+        <input type="checkbox">Python <br>
+        <input type="checkbox">Django <br>
+        <input type="checkbox">PHP <br>
+        <input type="checkbox">Laravel <br> <br>
+
+        <label for="">Upload Your Resume</label><br>
+        <input class="Upload" type="file"><br><br>
+        <label for="">Any comments or suggetions:</label><br>
+        <textarea name="" id="">Enter your comments here</textarea> <br><br>
+
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Send</button>
+
+    </form>
+</body>
+
+</html>
