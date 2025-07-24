@@ -1,0 +1,77 @@
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    border: 10px solid #232F3E;
+    font-size: 25px;
+}
+
+.innerDiv {
+    margin: 13px 10px 15px 10px;
+    display: inline-block;
+}
+
+#amazon {
+    margin-right: 200px;
+    color: #FF9900;
+    /* margin-left: 10px; */
+}
+
+#account {
+    margin-right: 200px;
+}
+
+#cart {
+    margin-right: 200px;
+}
+
+#contact {
+    margin-right: 150px;
+}
+
+span>button {
+    /* margin: 10px; */
+    background-color: #f08804;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+span>input {
+    height: 35px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divs {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 25px;
+}
+
+#div1 {
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+#div2 {
+    background-color: rgb(165, 42, 42, 0.5);
+}
+
+#div3 {
+    background-color: rgb(95, 158, 160, 0.5);
+}
+
+main{
+    height: 500px;
+    background-color: aqua;
+}
+
+footer {
+    background-color: chocolate;
+    height: 80px;
+
+}
