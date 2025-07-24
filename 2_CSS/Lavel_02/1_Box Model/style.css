@@ -1,0 +1,24 @@
+* {
+    background-color: rgb(81, 81, 11);
+}
+
+.div1 {
+    background-color: aqua;
+    color: red;
+    height: 60px;
+    width: 100px;
+    padding: 10px 20px 30px 40px;
+    border: 10px solid black;
+    margin-left: 180px;
+    /* margin: 10px 20px 1px 180px; */
+
+}
+
+.div2 {
+    background-color: bisque;
+    color: red;
+    height: 60px;
+    width: 100px;
+    border: 10px solid black;
+    padding: 30px;
+}
