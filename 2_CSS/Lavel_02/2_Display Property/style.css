@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box2 {
+    display: none;
+    visibility: hidden;
+}

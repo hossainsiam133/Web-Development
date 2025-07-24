@@ -49,3 +49,6 @@ span > input{
     height: 35px;
     width: 200px;
 }
+a{
+    text-decoration: none;
+}
