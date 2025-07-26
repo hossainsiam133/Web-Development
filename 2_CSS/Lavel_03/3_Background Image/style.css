@@ -1,0 +1,21 @@
+div {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#car {
+    background-image: url("Car.jpg");
+    background-size: cover;
+}
+
+#mountain {
+    background-image: url("Mountain.jpg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+#flower {
+    background-image: url("flower.jpg");
+}

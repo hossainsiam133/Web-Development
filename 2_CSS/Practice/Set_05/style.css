@@ -1,0 +1,17 @@
+p {
+    text-align: justify;
+}
+
+div {
+    /* position: fixed;
+    right: 0px;
+    bottom: 0px; */
+    /* display: inline-block; */
+    margin-left: auto;
+    height: 250px;
+    width: 250px;
+    background-image: url("Hil.jpg");
+    background-size: cover;
+    border: 2px solid black;
+
+}
