@@ -39,3 +39,16 @@ div {
     left: 150px;
     background-color: lightgreen;
 }
+
+#z1 {
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+#z2 {
+    z-index: 2;
+    position: relative;
+}
