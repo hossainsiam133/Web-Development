@@ -1,0 +1,41 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#box1 {
+    position: static;
+    background-color: blanchedalmond;
+}
+
+#box2 {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    background-color: chocolate;
+}
+
+#box3 {
+    position: absolute;
+    top: 300px;
+    background-color: darkolivegreen;
+}
+
+#box4 {
+    position: fixed;
+    top: 0px;
+    right: 2px;
+    left: 2px;
+    background-color: coral;
+}
+
+#box5 {
+    position: sticky;
+    top: 0px;
+    left: 150px;
+    background-color: lightgreen;
+}

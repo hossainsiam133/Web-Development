@@ -1,0 +1,26 @@
+/* < !-- 1 . Units=% -->*/
+#box1 {
+    height: 100px;
+    width: 100px;
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: aqua;
+    font-size: 15px;
+}
+
+#box2 {
+    background-color: blue;
+    width: 70%;
+    height: 70%;
+    font-size: 2em;
+    /* width: 100vw; */
+
+}
+
+#box3 {
+    font-size: 0.5em;
+    /* height: 100vh; */
+    background-color: brown;
+    /* font-size: 1rem; */
+    /* font-size: 100%; */
+}
