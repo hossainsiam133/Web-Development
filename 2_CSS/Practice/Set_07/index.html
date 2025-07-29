@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        div {
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (width:600px) {
+            div {
+                background-color: brown;
+            }
+        }
+
+        @media (min-width: 601px) {
+            div {
+                background-color: chartreuse;
+            }
+        }
+
+        @media (max-width: 200px) {
+            div {
+                background-color: darkgreen;
+            }
+        }
+
+        @media (min-width:201px) and (max-width:599px) {
+            div {
+                background-color: deeppink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>
