@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+#container {
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    border: none;
+    display: flex;
+    border: 2px solid indianred;
+}
+
+div {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+
+#box1 {
+    background-color: darkblue;
+}
+
+#box2 {
+    background-color: brown;
+    height: 150px;
+    flex-shrink: 3;
+}
+
+#box3 {
+    background-color: blueviolet;
+    align-self: center;
+}
+
+#box4 {
+    background-color: coral;
+    height: 150px;
+    flex-grow: 1;
+}
+
+#box5 {
+    background-color: darkcyan;
+}
