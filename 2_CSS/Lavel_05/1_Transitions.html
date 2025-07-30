@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function:steps(3);
+            transition-delay: 2s; */
+            transition: all 2s ease-in 0.2s;
+        }
+
+        div:hover {
+            background-color: brown;
+            font-size: 30px;
+            color: white;
+
+        }
+
+        div:active {
+            background-color: yellow;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Div
+    </div>
+</body>
+
+</html>
