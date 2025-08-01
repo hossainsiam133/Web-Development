@@ -1,0 +1,125 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+main {
+    padding-top: 170px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    /* or your preferred color */
+    z-index: 1000;
+    /* stay above other content */
+    border-bottom: 1px solid #ccc;
+    /* optional */
+    /* padding: 10px 0; */
+}
+
+/* header{
+    margin: 30;
+    padding: 30;
+    display: flex;
+    justify-content: flex-start;
+} */
+nav {
+    /* position: relative; */
+    /* left: 30%; */
+    width: 100vw;
+    height: 170px;
+    background-color: #530B07;
+    display: flex;
+    justify-content: space-between;
+}
+
+#identity {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    width: 290px;
+    height: 159px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#photo {
+    width: 120px;
+    height: 150px;
+    border-radius: 30%;
+    background-image: url("Siam.JPG");
+    background-size: cover;
+    /* display: inline-block; */
+}
+
+#name {
+    /* display: inline-block; */
+    /* background-color:aqua; */
+    width: 150px;
+    height: 90px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+#contact {
+    background-color: cadetblue;
+    width: 340px;
+    border-left: 10px solid aquamarine;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+
+.personal {
+    background-color: #530B07;
+    width: 97vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.div1 {
+    /* background-color: antiquewhite; */
+    width: 50vw;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 10px solid aquamarine;
+    /* text-align: center; */
+}
+
+.div2 {
+    /* background-color: blue; */
+    width: 50vw;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    /* padding-top: 10px; */
+}
+#foot{
+    background-color: burlywood;
+    width: 100vw;
+    height: 20vh;
+}
