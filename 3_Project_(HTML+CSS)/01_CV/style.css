@@ -97,6 +97,7 @@ ul {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+
 }
 
 .div1 {
@@ -118,8 +119,89 @@ ul {
     padding: 10px;
     /* padding-top: 10px; */
 }
-#foot{
-    background-color: burlywood;
+
+footer {
+    padding-top: 10px;
+}
+
+#foot {
+    padding-top: 10px;
+    background-color: black;
     width: 100vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link {
+
+    color: white;
+    /* background-color: darkblue; */
+    text-align: center;
+    width: 720px;
+    height: 90px;
+
+}
+
+#link>a {
+    /* background-color: blue; */
+    margin: 50px;
+    font-size: 23px;
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+#link>p {
+    position: relative;
+    top: 10px;
+    font-size: 22px;
+    font-style: bold;
+}
+
+a>span {
+    color: #99C3FF;
+}
+
+@keyframes col {
+    from {
+        background-color: #530B07;
+    }
+
+    to {
+        background-color: #99C3FF;
+    }
+}
+
+@keyframes sz {
+    from {
+        width: 90vw;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    to {
+        width: 90vw;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+}
+
+.personal:hover {
+    animation-name: col;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+    /* animation-iteration-count: infinite; */
+}
+
+.div2:hover {
+    animation-name: sz;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
 }
