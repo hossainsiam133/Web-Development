@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#calculator {
+    margin-top: 20px;
+    /* background-color: brown; */
+    width: 30vw;
+    height: 90vh;
+}
+
+#cal-head>input {
+    width: 444px;
+    height: 80px;
+    border: 1px solid blue;
+}
+
+#cal-head {
+    background-color: aqua;
+    font-size: 25px;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#cal-body {
+    margin: 0;
+    padding: 0;
+    height: 64vh;
+    background-color:aquamarine;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn {
+    background-color: black;
+    margin: 6px;
+    width: 100px;
+    height: 70px;
+    padding-top: 10px;
+    color: white;
+    font-size: 50px;
+}

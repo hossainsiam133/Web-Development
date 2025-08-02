@@ -205,3 +205,129 @@ a>span {
     animation-iteration-count: infinite;
     /* animation-direction: alternate; */
 }
+
+
+/* =========================================== */
+/* Mobile Responsive Styles Start Here    */
+/* =========================================== */
+
+@media (max-width: 768px) {
+
+    /* Header and Navigation */
+    nav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #identity {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 0 0;
+    }
+
+    #name {
+        text-align: center;
+        position: static;
+        /* Reset positioning */
+        padding-top: 15px;
+        height: auto;
+    }
+
+    #contact {
+        width: 90%;
+        margin-top: 20px;
+        border-left: none;
+        /* border-top: 5px solid aquamarine; */
+        border-radius: 0;
+        text-align: center;
+    }
+
+    #contact ul {
+        position: static;
+        /* Reset positioning */
+        padding: 15px 0;
+    }
+
+    /* Adjust main content to clear the taller fixed header */
+    main {
+        padding-top: 400px;
+    }
+
+    /* Main Content Sections */
+    .personal {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 95vw;
+        margin: 15px auto;
+        /* Centering the container */
+    }
+
+    .div1 {
+        width: 100%;
+        font-size: 30px;
+        /* Smaller font for headers */
+        border-right: none;
+        border-bottom: 5px solid aquamarine;
+        padding: 20px 0;
+    }
+
+    .div2 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    footer {
+        padding-top: 20px;
+    }
+
+    #foot {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #link {
+        width: 90%;
+        height: auto;
+    }
+
+    #link>a {
+        display: block;
+        /* Stack links vertically */
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    #link>p {
+        position: static;
+        /* Reset positioning */
+        margin-top: 15px;
+    }
+
+    /* Disable animations on mobile if they are distracting */
+    /* .personal:hover, .div2:hover {
+        animation: none;
+    } */
+    .personal:hover {
+        animation-name: col;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-direction: reverse;
+        /* animation-iteration-count: infinite; */
+    }
+
+    .div2:hover {
+        animation-name: sz;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        /* animation-direction: alternate; */
+    }
+
+}
