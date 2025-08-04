@@ -16,6 +16,11 @@ header {
 
 #menu {
     background-color: blueviolet;
+    width: 50em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 #resume {
@@ -26,9 +31,82 @@ header {
 #nav {
     background-color: chartreuse;
     padding: 1rem;
-    width: 97vw;
+    width: 97.9vw;
     height: 7em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+}
+
+#menu-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.identity {
+    padding-top: 9em;
+    background-color: blueviolet;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_l {}
+
+.identity .l1 {
+    background-color: aqua;
+}
+
+.identity .l2 {
+    background-color: bisque;
+}
+
+.identity .l3 {
+    background-color: brown;
+}
+
+.identity .l4 {
+    background-color: chartreuse;
+}
+
+.about-me .img-siam {
+    width: 300px;
+    height: 400px;
+    background-image: url("Siam.JPG");
+    background-size: cover;
+}
+
+/* .language {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-items: stretch;
+    align-content: stretch;
+    background-color: brown;
+    max-width: 100%;
+} */
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* center items */
+    gap: 20px;
+    /* spacing between items */
+    max-width: 100%;
+    /* ensures wrapping works */
+    padding: 20px;
+}
+
+.lang {
+    width: calc((100% - 6 * 20px) / 7);
+    /* 7 items per row with 6 gaps */
+    text-align: center;
 }
