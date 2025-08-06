@@ -5,27 +5,47 @@ body {
 }
 
 header {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100vw;
     height: 100vh;
 }
 
 #name {
     background-color: blue;
+
 }
 
 #menu {
-    background-color: blueviolet;
-    width: 50em;
+    /* background-color: blueviolet; */
+    width: 40em;
+    height: 60%;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    border: 2px solid white;
+    padding: 2px;
 }
 
 #resume {
-    /* margin: 30px; */
     background-color: cadetblue;
+    width: 12em;
+    height: 4.5em;
+
+}
+
+#download_resume {
+    width: 13%;
+    height: 60%;
+    font-size: 20px;
+    background-color: #FBBD23;
+    margin-right: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
 }
 
 #nav {
@@ -41,12 +61,16 @@ header {
 
 #menu-ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
+    padding-left: 0;
+    height: 80%;
 }
 
 a {
     text-decoration: none;
+    font-size: 28px;
+    font-style: bold;
 }
 
 .identity {
@@ -63,23 +87,35 @@ a {
 
 .identity .l1 {
     background-color: aqua;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .identity .l2 {
     background-color: bisque;
+    font-size: 2em;
 }
 
 .identity .l3 {
+    text-align: center;
     background-color: brown;
+    font-size: 1.5em;
+}
+
+.l4 a {
+    margin: 20px;
 }
 
 .identity .l4 {
     background-color: chartreuse;
+    text-align: center;
+    /* padding: 2px; */
+    /* height: 3em; */
 }
 
 .about-me .img-siam {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 70vh;
     background-image: url("Siam.JPG");
     background-size: cover;
 }
@@ -109,4 +145,25 @@ a {
     width: calc((100% - 6 * 20px) / 7);
     /* 7 items per row with 6 gaps */
     text-align: center;
+}
+
+.siam-info {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp {
+    width: 160%;
+    background-color: aquamarine;
+    /* padding-left: 300px; */
+    padding-top: 50px;
+}
+
+.txt {
+    font-size: 40px;
+}
+
+.about-me {
+    padding: 20px;
 }
