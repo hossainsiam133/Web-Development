@@ -11,7 +11,7 @@ header {
 }
 
 #name {
-    background-color: blue;
+    /* background-color: blue; */
 
 }
 
@@ -35,8 +35,10 @@ header {
 }
 
 #download_resume {
-    width: 13%;
-    height: 60%;
+    width: 10em;
+    height: 3em;
+    color: white;
+    font-weight: bold;
     font-size: 20px;
     background-color: #FBBD23;
     margin-right: 30px;
@@ -49,14 +51,16 @@ header {
 }
 
 #nav {
-    background-color: chartreuse;
+        background-color: #050505;
     padding: 1rem;
     width: 97.9vw;
-    height: 7em;
+    /* height: 4.em; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    border: 2px solid #000; box-shadow: 0 0 10px white;
+    /* border-bottom: 0.4px solid white; */
 }
 
 #menu-ul {
@@ -75,7 +79,7 @@ a {
 
 .identity {
     padding-top: 9em;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -86,19 +90,19 @@ a {
 .main_l {}
 
 .identity .l1 {
-    background-color: aqua;
+    /* background-color: aqua; */
     font-size: 1.5em;
     text-align: center;
 }
 
 .identity .l2 {
-    background-color: bisque;
+    /* background-color: bisque; */
     font-size: 2em;
 }
 
 .identity .l3 {
     text-align: center;
-    background-color: brown;
+    /* background-color: brown; */
     font-size: 1.5em;
 }
 
@@ -107,18 +111,23 @@ a {
 }
 
 .identity .l4 {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     text-align: center;
     /* padding: 2px; */
     /* height: 3em; */
 }
-
 .about-me .img-siam {
-    width: 100%;
-    height: 70vh;
+    width: 100vw;
+    height: 100vh;
     background-image: url("Siam.JPG");
     background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
 }
+
 
 /* .language {
     display: flex;
@@ -132,13 +141,13 @@ a {
 .language {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     /* center items */
     gap: 20px;
     /* spacing between items */
     max-width: 100%;
     /* ensures wrapping works */
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .lang {
@@ -148,22 +157,162 @@ a {
 }
 
 .siam-info {
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     justify-content: space-around;
 }
 
 .exp {
     width: 160%;
-    background-color: aquamarine;
-    /* padding-left: 300px; */
-    padding-top: 50px;
+    /* background-color: aquamarine; */
+    /* padding-left: 30px; */
+    padding: 30px;
+    /* margin-bottom: 5em; */
 }
 
 .txt {
     font-size: 40px;
+    border: 2px solid black;
+    text-align: justify;
+    margin-bottom: 1.5em;
 }
 
 .about-me {
-    padding: 20px;
+    padding: 30px;
+}
+
+.overview {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%; */
+    /* height: ; */
+    padding: 2em;
+    background-color: rgb(11, 12, 12);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.overview .box {
+    padding: 0;
+    width: 15em;
+    height: 15em;
+    border: 2px solid red;
+    /* background-color: #070707; */
+    /* margin: 2em; */
+    text-align: center;
+    /* font-size: 30px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.project-list .pro-img {
+    width: 50%;
+    height: 20em;
+    background-image: url("project.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.projects {
+    padding: 30px;
+}
+
+.project .pro-details {
+    width: 50%;
+
+}
+
+.project-list {
+    background-color: black;
+    box-shadow: 4px 4px 10px white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 32px 20px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.pro-details>h1 {
+    font-size: 48px;
+}
+
+.pro-details>p {
+    font-size: 24px;
+    width: 416px;
+}
+
+.pro-button {
+    /* background-color: red; */
+    height: 3.5em;
+    width: 26em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-button>button {
+    background-color: #FBBD23;
+    width: 15em;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.but-span1 {
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+
+.img-background {
+    background-color: white;
+    border-radius: 50%;
+}
+.skills{
+    /* background-color: #FBBD23; */
+    padding: 30px;
+}
+.lang{
+    background-color: #1e1b1b;
+    box-shadow: 4px 4px 10px white;
+     border: 1px solid white;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dev_info{
+background-color: #FBBD23;
+width: 40%;
+}
+.client_info{
+background-color: aquamarine;
+width: 60%;
+}
+.copyright{
+    text-align: center;
+}
+.about-me > h1,.projects >h1,.skills>h1,.get_in_touch>h1{
+    border-bottom: 1px solid white;
+    font-size: 72px;
+    width: 6em;
 }
