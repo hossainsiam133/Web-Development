@@ -18,7 +18,7 @@ header {
 #menu {
     /* background-color: blueviolet; */
     width: 40em;
-    height: 60%;
+    height: 80%;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -54,7 +54,7 @@ header {
     background-color: #050505;
     padding: 1rem;
     width: 97.9vw;
-    /* height: 4.em; */
+    height: 4.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
