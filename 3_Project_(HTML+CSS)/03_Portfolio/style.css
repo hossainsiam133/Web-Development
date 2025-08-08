@@ -51,7 +51,7 @@ header {
 }
 
 #nav {
-        background-color: #050505;
+    background-color: #050505;
     padding: 1rem;
     width: 97.9vw;
     /* height: 4.em; */
@@ -59,7 +59,8 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    border: 2px solid #000; box-shadow: 0 0 10px white;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px white;
     /* border-bottom: 0.4px solid white; */
 }
 
@@ -116,6 +117,7 @@ a {
     /* padding: 2px; */
     /* height: 3em; */
 }
+
 .about-me .img-siam {
     width: 100vw;
     height: 100vh;
@@ -282,37 +284,149 @@ a {
     background-color: white;
     border-radius: 50%;
 }
-.skills{
+
+.skills {
     /* background-color: #FBBD23; */
     padding: 30px;
 }
-.lang{
+
+.lang {
     background-color: #1e1b1b;
     box-shadow: 4px 4px 10px white;
-     border: 1px solid white;
+    border: 1px solid white;
     margin-bottom: 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     justify-content: space-between;
 }
-.dev_info{
-background-color: #FBBD23;
-width: 40%;
+
+.dev_info {
+    /* background-color: #FBBD23; */
+    width: 45%;
+    padding-top: 8em;
 }
-.client_info{
-background-color: aquamarine;
-width: 60%;
+
+.client_info {
+    width: 55%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    background-color: black;
+    box-shadow: 4px 4px 10px white;
+    border: 1px solid white;
+
 }
-.copyright{
-    text-align: center;
-}
-.about-me > h1,.projects >h1,.skills>h1,.get_in_touch>h1{
+
+
+
+.about-me>h1,
+.projects>h1,
+.skills>h1,
+.get_in_touch>h1 {
     border-bottom: 1px solid white;
     font-size: 72px;
     width: 6em;
+}
+
+.contact-me {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 60%;
+}
+
+.mail-me {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 55%;
+    /* margin:; */
+}
+
+.location {
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 62%;
+
+}
+
+.get_in_touch {
+    padding: 30px;
+}
+
+.dev_info>h2 {
+    font-size: 30px;
+    margin: 0px 0px 40px;
+}
+
+.info-contact {
+    font-size: 20px;
+}
+
+.info-contact>h2 {
+    margin: 0;
+}
+
+.info-contact>p {
+    margin: 0;
+}
+
+.client_info {
+    padding: 40px;
+}
+
+.client_info>h2 {
+    margin: 0px 0px 40px;
+    font-size: 40px;
+}
+
+.input {
+    width: 45em;
+    height: 3.56em;
+    margin-bottom: 1.2em;
+    padding: 0px 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    background-color: black;
+    box-shadow: 4px 4px 10px white;
+    border: 1px solid white;
+    font-size: 16px;
+}
+#area{
+    padding: 16px 16px;
+    height: 10em;
+}
+.img-contact{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.copyright {
+   background-color: black;
+   height: 4em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   font-size: 16px;
+   box-shadow: 10px;
+   border-top: 1px solid white;
+   margin-top: 7em;
 }
