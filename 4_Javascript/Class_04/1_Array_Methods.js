@@ -11,10 +11,12 @@ arr1 = arr + arr0;
 console.log(arr1)
 
 let arr2 = [3, 4, 2, 5]
-let z = arr2.shift()
-console.log(z)
-console.log(arr2)
+console.log(arr2.shift(), arr2)
+console.log(arr2.unshift(-1), arr2)
 
-let len = arr2.unshift(-1)
-console.log(len)
-console.log(arr2)
+console.log(arr2.slice(0, 3))
+
+// Splice
+let a = [3, 5, 4, 2, 3, 6, 9]
+a.splice(1, 0, 6, 7)
+console.log(a)
