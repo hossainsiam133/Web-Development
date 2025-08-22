@@ -9,3 +9,8 @@ for (let i = 0; i < arr.length; i++) {
 for (let [key, value] of mp) {
     console.log(key, value)
 }
+let maps = arr.map(x => {
+    return x * 2;
+}
+)
+console.log(maps)
