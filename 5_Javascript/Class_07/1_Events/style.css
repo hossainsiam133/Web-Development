@@ -1,0 +1,13 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 180, 180);
+}
+.break{
+    height: 30px;
+}
