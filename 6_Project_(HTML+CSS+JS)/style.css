@@ -1,0 +1,82 @@
+body {
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.score-board {
+    margin: 30px 0;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 40px;
+}
+
+.choices {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.choice-btn {
+    background: #333;
+    border: 2px solid #555;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: background 0.2s, border 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-btn:hover {
+    background: #444;
+    border-color: #fff;
+}
+
+.result {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    min-height: 40px;
+    letter-spacing: 1px;
+}
+
+.history {
+    margin-top: 20px;
+    width: 320px;
+    background: #292929;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.reset-btn {
+    margin-top: 25px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #ff5252;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.reset-btn:hover {
+    background: #ff1744;
+}
