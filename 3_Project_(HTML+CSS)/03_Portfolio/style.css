@@ -9,7 +9,7 @@ header {
     width: 100vw;
     height: 100vh;
 }
-
+pro-img
 #name {
     /* background-color: blue; */
 
@@ -213,17 +213,36 @@ a {
     border-bottom-right-radius: 20px;
 }
 
-.project-list .pro-img {
+.project-list #pro-img1 {
     width: 50%;
     height: 20em;
-    background-image: url("project.png");
+    background-image: url("Tailor_Made.png");
     background-size: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
+.project-list #pro-img2 {
+    width: 50%;
+    height: 20em;
+    background-image: url("EMS.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.project-list #pro-img3 {
+    width: 50%;
+    height: 20em;
+    background-image: url("LMS.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 .projects {
     padding: 30px;
 }
