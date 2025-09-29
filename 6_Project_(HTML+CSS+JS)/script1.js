@@ -1,6 +1,15 @@
 let userScore = 0
 let compScore = 0
+const reset = document.getElementById("reset")
+reset.onclick = () => {
+    userScore = 0
+    compScore = 0
+    const uid = document.getElementById("user-score")
+    uid.textContent = `You: ${userScore}`
 
+    const cid = document.getElementById("computer-score")
+    cid.textContent = `Computer: ${compScore}`
+}
 randoms = () => {
     const array = ["rock", "paper", "scissor"]
     const ind = Math.floor(Math.random() * 3)
@@ -15,6 +24,13 @@ getResult = (user, computer) => {
     ) return 'win';
     return 'lose';
 }
+// set = (userScore, compScore) => {
+//     const uid = document.getElementById("user-score")
+//     uid.textContent = `You: ${userScore}`
+
+//     const cid = document.getElementById("computer-score")
+//     cid.textContent = `Computer: ${compScore}`
+// }
 playGame = (userChoise) => {
     compChoise = randoms()
     const result = getResult(userChoise, compChoise)
@@ -24,16 +40,15 @@ playGame = (userChoise) => {
     else if (result === "lose")
         compScore += 1
     const uid = document.getElementById("user-score")
-    console.log(uid)
     uid.textContent = `You: ${userScore}`
+
     const cid = document.getElementById("computer-score")
     cid.textContent = `Computer: ${compScore}`
-
     const resultSpan = document.getElementById("result")
     if (result === "draw")
         resultSpan.textContent = `You choose ${userChoise}, Computer choose ${compChoise} and it is Draw`;
     else
-            resultSpan.textContent = `You choose ${userChoise}, Computer choose ${compChoise} and User ${result}`;
+        resultSpan.textContent = `You choose ${userChoise}, Computer choose ${compChoise} and User ${result}`;
 
 
 }
